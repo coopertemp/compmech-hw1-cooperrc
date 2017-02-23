@@ -1,16 +1,3 @@
-# Roots and Optimization assignment
-
-Demo of uploading assignment
-
-## Solution to Gold Chain nonlinear spring constants
-
-!(Gold chain TEM image)[au_chain.jpg]
-
-!(Gold chain model (artist rendition))[Auchain_model.png]
-
-# Homework #3 plots of Gold chain F vs dx and Lennard-Jones Potential
-
-```matlab
 epsilon = 0.039; % kcal/mol
 epsilon = epsilon*6.9477e-21; % J/atom
 epsilon = epsilon*1e18; % aJ/J
@@ -50,12 +37,4 @@ plot(dx,F_applied)
 xlabel('dx (nm)')
 ylabel('Force (nN)')
 saveas(h2,'force_vs_dx.png')
-```
 
-This script in included as `gold_chain_script.m`
-
-Output is two plots, 'potential_energy.png' and 'force_vs_dx.png'
-
-!(Lennard-Jones potential energy for no applied force)[potential_energy.png]
-
-!(Force vs displacement for gold chain)[force_vs_dx.png]
